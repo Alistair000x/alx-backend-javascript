@@ -1,8 +1,8 @@
-// Return a promise using the prototype given.
-export default function getReponseFromAPI() {
-	return new Promise((resolve, reject) => {
-		setTimeout(() => {
-			resolve();
+// Return a Promise using the prototype given.
+export default function getResponseFromAPI() {
+	return new promise((reseolve, reject) => {
+		setTime(() => {
+			reslove();
 		}, 100);
 	});
 }
